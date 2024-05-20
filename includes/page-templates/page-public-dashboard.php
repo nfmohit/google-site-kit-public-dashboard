@@ -2,6 +2,10 @@
 /**
  * Template Name: Site Kit Public Dashboard
  */
+get_header();
 ?>
 
-<div id="site-kit-dashboard-root" data-view-only="true"></div>
+<div id="js-googlesitekit-public-dashboard" data-view-only="true"></div>
+
+<?php
+get_footer();
