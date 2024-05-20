@@ -41,8 +41,7 @@ class Public_Dashboard {
 		if ( get_query_var( 'custom_page' ) === 'google-site-kit' ) {
 			wp_enqueue_script(
 				'googlesitekit-public-dashboard',
-				// plugin_dir_url( GOOGLESITEKIT_PLUGIN_MAIN_FILE ) . 'dist/assets/js/googlesitekit-public-dashboard.js',
-				'',
+				plugin_dir_url( GOOGLESITEKIT_PLUGIN_MAIN_FILE ) . 'dist/assets/js/googlesitekit-public-dashboard.js',
 				array(
 					'googlesitekit-tracking-data',
 					'googlesitekit-runtime',
