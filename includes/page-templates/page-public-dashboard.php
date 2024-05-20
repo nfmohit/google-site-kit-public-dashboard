@@ -4,8 +4,8 @@
  */
 get_header();
 ?>
-
-<div id="js-googlesitekit-public-dashboard" data-view-only="true"></div>
-
+<div class="googlesitekit-plugin">
+	<div id="js-googlesitekit-public-dashboard" data-view-only="true"></div>
+</div>
 <?php
 get_footer();

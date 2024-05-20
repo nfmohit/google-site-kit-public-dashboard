@@ -59,6 +59,8 @@ class Public_Dashboard {
 					'googlesitekit-dashboard-sharing-data'
 				)
 			);
+
+			wp_enqueue_style( 'googlesitekit-admin-css' );
 		}
 	}
 }
